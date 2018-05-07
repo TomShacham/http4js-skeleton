@@ -1,0 +1,22 @@
+{
+  "name": "http4js-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register 'src/**/*.{ts,tsx}'",
+    "start": "PORT=3000 ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http4js": "1.4.1",
+    "typescript": "2.8.3"
+  },
+  "devDependencies": {
+    "@types/mocha": "5.2.0",
+    "@types/node": "10.0.4",
+    "mocha": "5.1.1",
+    "ts-node": "6.0.2"
+  }
+}
